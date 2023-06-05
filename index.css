@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,700&family=Poppins:ital,wght@0,500;0,600;0,700;1,200;1,400;1,500;1,700&family=Roboto+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Space+Mono&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: 'Titillium Web', sans-serif;
+  color: var(--light-color);
+}
+
+body {
+  background-color: var(--theme-color) !important;
+}
+
+.logo,
+h1 {
+  color: var(--orange-color) !important;
+  cursor: pointer;
+}
+
+body h1 {
+  font-size: 3rem;
+}
+
+:root {
+  --theme-color: #000;
+  --navy-color: #262a56;
+  --deep-navy-color: #3a4be6;
+  --light-color: #e3ccae;
+  --orange-color: #b8621b;
+  --deep-orange-color: #e2a269;
+}
+
+header {
+  border: 1px solid var(--light-color);
+  background-color: var(--navy-color);
+}
+
+header ul li {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+header ul li:hover {
+  color: var(--orange-color);
+  transition: color 0.4s ease;
+}
+
+.books {
+  background-color: rgba(224, 214, 214, 0.4);
+  border: 1px solid var(--light-color);
+}
+
+.orange {
+  color: var(--orange-color);
+}
+
+.books-container,
+.add-new-container,
+.contact-container,
+.copyright-container {
+  width: 70%;
+  margin: 10px auto;
+  border: 1px solid var(--light-color);
+  cursor: pointer;
+}
+
+.added-book-container:nth-child(even) {
+  background-color: var(--navy-color);
+}
+
+.added-book-container:nth-child(odd) {
+  background-color: var(--orange-color);
+}
+
+.added-book-container:nth-child(even):hover {
+  background-color: var(--deep-navy-color);
+}
+
+.added-book-container:nth-child(odd):hover {
+  background-color: var(--deep-orange-color);
+}
+
+.book-info {
+  color: var(--theme-color);
+}
+
+form input {
+  color: #000;
+  background-color: var(--light-color);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+form input:focus {
+  outline: var(--orange-color);
+  color: var(--theme-color);
+}
+
+form ::placeholder {
+  color: #000;
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+main,
+.date-container {
+  background-color: var(--theme-color);
+}
+
+#add-new button,
+.remove-btn {
+  padding: 10px 20px;
+  background-color: var(--light-color);
+  border-radius: 12px;
+}
+
+#add-new button:hover {
+  background-color: var(--orange-color);
+  color: var(--theme-color);
+  transform: scale(1.2);
+  transition: all 0.4s ease-out;
+}
+
+.remove-btn:hover {
+  background-color: var(--orange-color);
+  color: var(--theme-color);
+  transform: scale(1.2);
+  transition: all 0.4s ease-out;
+}
+
+.border-none {
+  border: none;
+}
+
+.contact-text {
+  font-size: 1.5rem;
+}
+
+.date-time:hover {
+  cursor: pointer;
+  color: var(--light-color);
+  transition: color 0.4s ease-in-out;
+}

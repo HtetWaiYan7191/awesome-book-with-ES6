@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[My\_AwesomeBooks\_Project\] ](#-my_awesomebooks_project-)
+- [📖 \[My\_AwesomeBooks\] ](#-my_awesomebooks-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -23,11 +23,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My_AwesomeBooks_Project] <a name="about-project"></a>
+# 📖 [My_AwesomeBooks] <a name="about-project"></a>
 
-It is a web page to store your awesome books.
+ My Awesome Books is a user-friendly website that allows you to effortlessly manage your personal book collection. With our intuitive interface, you can easily add and track the titles and authors of all your favorite books.
 
-**[My_AwesomeBooks_Project]** is a project to store your awesome books.
+**[My_AwesomeBooks]** My Awesome Books is a user-friendly website that allows you to effortlessly manage your personal book collection.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,6 +39,7 @@ It is a web page to store your awesome books.
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://getbootstrap.com/">BOOTSTRAP</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
 
   </ul>
@@ -58,7 +59,7 @@ It is a web page to store your awesome books.
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://htetwaiyan7191.github.io/awesome-books-project/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,8 +82,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 <br>
 <code>
-  git clone https://github.com/HtetWaiYan7191/awesome-books-project.git
-  cd awesome-books-project.git
+  git clone https://github.com/HtetWaiYan7191/awesome-book-with-ES6.git
+  cd awesome-book-with-ES6.git
 </code>
 
 
@@ -137,7 +138,7 @@ You can deploy this project using: GitHub Pages
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/HtetWaiYan7191/awesome-books-project/issues).
+Feel free to check the [issues page](https://github.com/HtetWaiYan7191/awesome-book-with-ES6/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
