@@ -140,7 +140,7 @@ main,
 }
 
 .date-time:hover {
-    cursor: pointer;
-    color: var(--light-color);
-    transition: color 0.4s ease-in-out;
+  cursor: pointer;
+  color: var(--light-color);
+  transition: color 0.4s ease-in-out;
 }
