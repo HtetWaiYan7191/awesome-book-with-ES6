@@ -1,10 +1,4 @@
-/* eslint-disable no-use-before-define */
-/* eslint-disable max-classes-per-file */
-/* eslint-disable class-methods-use-this */
-/* eslint-disable no-unused-vars */
-
 import { DateTime } from './node_modules/luxon/src/luxon.js';
-import Books from './modules/book.js';
 import Navigation from './modules/navigation.js';
 import BookManager from './modules/bookManager.js';
 
@@ -41,15 +35,15 @@ const showBook = () => {
     bookContainer.appendChild(addedBook);
 
     // Add event listener to dynamically created remove button
+
+    function removeBook(index) {
+      bookCollection.removeBook(index);
+      showBook();
+    }
     const removeButton = addedBook.querySelector('.remove-btn');
     removeButton.addEventListener('click', () => removeBook(index));
   });
 };
-
-function removeBook(index) {
-  bookCollection.removeBook(index);
-  showBook();
-}
 
 const addBook = () => {
   const titleInput = document.getElementById('title');
