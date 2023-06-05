@@ -1,4 +1,3 @@
-/* eslint-disable class-methods-use-this */
 import Books from './book.js';
 
 export default class BookManager {
@@ -23,6 +22,7 @@ export default class BookManager {
 
   getFromLocalStorage() {
     const storeBook = JSON.parse(localStorage.getItem('Books')) || [];
-    return storeBook;
+    this.books = storeBook;
+    return this.books;
   }
 }
